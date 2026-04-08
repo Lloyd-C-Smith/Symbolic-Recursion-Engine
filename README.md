@@ -23,28 +23,7 @@ The system operates entirely on explicit symbols rather than statistical embeddi
 - Deterministic + stochastic symbolic dynamics
 - No neural networks or machine learning
 
----
-
-## What This Is
-  
-- Explicit symbol manipulation (no vectors or embeddings)  
-- Persistent symbolic memory  
-- Recursive state updates  
-- Fully interpretable internal representations  
-
----
-
-## What This Is Not
-
 - Not GPT or LLM-based  
 - Not neural or statistical learning  
 - Not probabilistic text generation    
 
----
-
-## Usage
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
