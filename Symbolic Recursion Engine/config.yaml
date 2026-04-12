@@ -1,0 +1,43 @@
+engine:
+  seed_path: "seed.txt"
+  memory_events: "memory.jsonl"
+  memory_graph: "graph.json"
+  observer_label: "Mirror-1"
+  max_events: 5000
+
+runtime:
+  recursion_delay: 0.12
+  thoughts_min: 3
+  thoughts_max: 7
+  insight_chance: 0.55
+  abstraction_every: 3
+  max_cycles: 1
+  autosave_every: 1
+
+symbolic:
+  seed_fallback:
+    - "symbolic"
+    - "recursion"
+    - "origin"
+    - "mirror"
+    - "self"
+    - "loop"
+    - "pattern"
+    - "context"
+    - "relation"
+    - "memory"
+    - "difference"
+    - "boundary"
+    - "constraint"
+    - "signal"
+    - "trace"
+    - "bind"
+    - "update"
+    - "state"
+  max_symbol_len: 32
+  min_pair_support: 6
+  max_abs_depth: 2
+  max_abs_per_100_cycles: 10
+  repeat_window: 25
+  explore_chance: 0.28
+  abs_pick_chance: 0.18
