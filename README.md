@@ -27,3 +27,9 @@ The system is deliberately non-neural. It does not use large language models, em
 This repository is an earlier experimental implementation that informed later work on the Mirror Programme.
 
 It should be understood as a research software artifact rather than a finished cognitive architecture.
+
+## Citation
+
+If you use this Engine in academic research, please cite the archived release:
+
+> Lloyd Christopher Smith. (2026). Symbolic Recursion Engine (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.21132897
