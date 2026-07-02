@@ -1,29 +1,29 @@
 # Symbolic Recursion Engine
 
-A self-reflective interpreter framework for simulating recursive symbolic cognition.
-
----
+A minimal symbolic AI implementation for exploring recursive symbolic state, persistent memory, observer feedback, and explicit non-neural cognition.
 
 ## Overview
 
-This project implements a minimal prototype of a recursive symbolic engine. It consists of a small set of modules that simulate symbolic memory, interpretation, observer feedback, and recursive state updates. The goal is to provide a transparent, non-neural foundation for experimenting with symbolic recursion and abstraction.
+The Symbolic Recursion Engine is an experimental research implementation of a recursive symbolic system.
 
-The system operates entirely on explicit symbols rather than statistical embeddings and maintains persistent state across executions.
+It provides a small, transparent codebase for exploring how symbolic states can be interpreted, stored, re-entered, and updated through a persistent recursive loop.
 
----
+The system is deliberately non-neural. It does not use large language models, embeddings, gradient-based learning, or probabilistic text generation. Instead, it focuses on symbolic state, memory persistence, observer-mediated feedback, and configurable recursive dynamics.
 
 ## Features
 
-- Recursive symbolic interpreter (`mirror0.py`)
-- Persistent memory and state evolution (`memory.py`)
-- Observer input and feedback loop (`observer.py`)
-- I/O handling and logging abstraction (`io_handler.py`)
-- Configurable runtime behaviour via `config.yaml`
-- Seed and data files for symbolic input and output
-- Deterministic + stochastic symbolic dynamics
-- No neural networks or machine learning
+- Recursive symbolic interpreter
+- Persistent symbolic memory
+- Observer input and feedback loop
+- Configurable symbolic dynamics
+- I/O handling and logging
+- Seed and data files for symbolic input/output
+- No neural networks
+- No large language models
+- No embedding-based semantic system
 
-- Not GPT or LLM-based  
-- Not neural or statistical learning  
-- Not probabilistic text generation    
+## Research Context
 
+This repository is an earlier experimental implementation that informed later work on the Mirror Programme.
+
+It should be understood as a research software artifact rather than a finished cognitive architecture.
